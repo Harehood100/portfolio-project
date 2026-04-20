@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <!-----FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/34c2e65d5a.js" crossorigin="anonymous"></script>
+    <!---MAIN CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---HEADER DESIGN-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#user profile">User Profile</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!---HOME SECTION--->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi,</h3>
+            <h1>I am Mark Wilson,from Nigeria</h1>
+            <h3>And I'm a <span>Frontend Developer.</span></h3>
+            <p>I build websites and design.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile pic.jpg" alt="">
+        </div>
+    </section>
+
+    <!----USER PROFILE SECTION DESIGN-->
+    <section class="user profile" id="user profile">
+        <div class="user profile-img">
+            <img src="images/profile pic 2.jpg" alt="">
+        </div>
+        <div class="user profile-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I am a frontend developer passionate about building <br>
+                responsive and user friendly web applications. I enjoy turning <br>
+                ideas into interactive digital experiences using mordern web technologies <br>
+                like HTML, CSS, Javascript. I am eager to grow, take on new challenges, and <br>
+                 contribute to real world projects.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-----SKILLS--->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web development</h3>
+                <p>
+                    I offer web development skills focused on creating responsive 
+                    accessible, and visually appealing websites. I turn ideas and designs 
+                    into functional web interfaces while ensuring a smooth user experience
+                    across different devices and browsers.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-brands fa-apple"></i>
+                <h3>Responsive Design (Apple/Devices)</h3>
+                <p>
+                   I build websites that adapt seamlessly across all 
+                   devices, including desktops, tablets, and mobile phones. 
+                   My goal is to ensure a consistent and smooth user experience 
+                   no matter the screen size. 
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI Design</h3>
+                <p>
+                   I design clean and visually appealing user interfaces with 
+                    a focus on simplicity and user experience. I carefully choose 
+                    colors, layouts, and typography to create designs that are both 
+                    attractive and easy to use.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-----PROJECTS----->
+    <section class="projects" id="projects">
+        <h2 class="heading"> Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="project-box">
+                <img  width="500px" height="600px"src="images/IMG_2559.JPG" alt="">
+                <div class="projects-layer">
+                    <h4> A Clothing Flyer</h4>
+                    <p>A project for Men clothing and accessories brand <br>NB: Not mine</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img width="500px" height="600px" src="images/IMG_2561.JPG" alt="">
+                <div class="projects-layer">
+                    <h4> A Perfume Flyer</h4>
+                    <p>A project for a Perfume brand <br>NB: Not mine</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img width="500px" height="600px"src="images/IMG_2560.JPG" alt="">
+                <div class="projects-layer">
+                    <h4> A Clothing Flyer</h4>
+                    <p>A project for a clothing brand for women <br>NB: Not mine</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img width="600px" height="500px"src="images/Screenshot 2026-03-20 131746.png" alt="">
+                <div class="projects-layer">
+                    <h4> A Contact Form</h4>
+                    <p>A project on a contact form using HTML</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----CONTACT SECTION-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" id="phone" name="phone" maxlength="11" placeholder="Mobile number" required>
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!---FOOTER SECTION-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by @markwilson|All right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
